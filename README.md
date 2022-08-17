@@ -1,7 +1,31 @@
 <h1 align="center"> PHP_Lab </h1>
+
 <br/>
 
-## 🐧 Instalar WSL2
+## Conteúdo
+
+<ul>
+  <li>
+    <a href="#--instalar-wsl2">Instalar WSL2</a>
+  </li>
+  <li>
+    <a href="#--configuração-de-ambiente">Configuração de ambiente</a>
+    <ul>
+      <li>
+        <a href="#-apache2">Apache</a>
+      </li>
+      <li>
+        <a href="#-php-81">PHP 8.1</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+---
+
+<br/>
+
+## [](https://github.com/brunosllz/php_lab#--instalar-wsl2) 🐧 Instalar WSL2
 
 Para fazer a instalação do WLS é bem simples, basta rodar este comandando como administrador no PowerShell ou Prompt de Comando do Windows.
 ```js
@@ -26,9 +50,11 @@ wsl --unregister <DistroName>                         //Desinstalar uma Distro
 wsl --distribution <DistroName> --user <User Name>    //Iniciar Distro pelo Prompt de Comando do Windows
 ```
 
+---
+
 <br/>
 
-## 🌐 Configuração de ambiente
+## [](https://github.com/brunosllz/php_lab#--configuração-de-ambiente) 🌐 Configuração de ambiente
 Neste laboratório iremos utilizar a Distro Linux Ubuntu, Apache e PHP 8.1 inicialmente, antes de prosseguir com a instalação certifique que esteja com o usuário root configurado no seu linux, para realizar a configuração rode o seguinte comando para atribuir uma senha ao root.
 ```js
 sudo passwd root
@@ -44,7 +70,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 <br/>
 
-#### Apache2
+#### [](https://github.com/brunosllz/php_lab#-apache2) Apache2
 Para fazer a instalação do Apache2 rode este comando.
 ```js
 apt install apache2
@@ -61,7 +87,7 @@ sudo service apache2 status
 
 <br/>
 
-#### PHP 8.1
+#### [](https://github.com/brunosllz/php_lab#-php-81) PHP 8.1
 Para fazer a instalação do PHP primeiro precisamos adicionar o repositório no linux.
 ```js
 sudo add-apt-repository ppa:ondrej/php
