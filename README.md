@@ -17,6 +17,9 @@
       <li>
         <a href="#-php-81">PHP 8.1</a>
       </li>
+      <li>
+        <a href="#-vscode">VSCode</a>
+      </li>
     </ul>
   </li>
 </ul>
@@ -116,5 +119,15 @@ php -v
 
 <br/>
 
-#### VSCode
+#### [](https://github.com/brunosllz/php_lab#-vscode) VSCode
+
+Como o nosso ambiente funcionando podemos partir para a configuração da IDE, neste laboratório iremos utilizar o VSCode.
+Como o seu VSCode já instalado do seu SO, temos que fazer de uma instalação da extensão para que possamos conectar a nossa Distro linux.
+Faça a instalação da extensão <strong>Remote - WSL</strong>
+
+<img alt="php-log" title="#vscode-extension" src="https://github.com/brunosllz/php_lab/blob/main/assets/vscode_extension.png" width="300px"/>
+
+Após a instalação irá aparecer um ícone no canto inferior do VSCode, basta clicar e ir em <strong>new WSL Window</strong> como mostrar o passo a passo.
+
+![giphy](https://github.com/brunosllz/php_lab/blob/main/assets/My%20Video.gif)
 
