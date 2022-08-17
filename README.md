@@ -9,7 +9,7 @@
     <a href="#--comandos-do-linux">Comandos do Linux</a>
   </li>
   <li>
-    <a href="#--instalar-wsl2">Instalar WSL2</a>
+    <a href="#--instalar-wsl">Instalar WSL</a>
   </li>
   <li>
     <a href="#--configuração-de-ambiente">Configuração de ambiente</a>
@@ -41,7 +41,7 @@ sudo chmod 777 -R .     //Atribuir permissão no linux (tenha cuidado ao usar es
 
 <br/>
 
-## [](https://github.com/brunosllz/php_lab#--instalar-wsl2) 🐧 Instalar WSL2
+## [](https://github.com/brunosllz/php_lab#--instalar-wsl) 🐧 Instalar WSL
 
 Para fazer a instalação do WLS é bem simples, basta rodar este comandando como administrador no PowerShell ou Prompt de Comando do Windows.
 ```js
