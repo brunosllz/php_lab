@@ -31,7 +31,7 @@
 
 <br/>
 
-## [](https://github.com/brunosllz/php_lab#--instalar-wsl2) 💻 Comandos do Linux
+## [](https://github.com/brunosllz/php_lab#--comandos-do-linux) 💻 Comandos do Linux
 
 ```js
 sudo chmod 777 -R .     //Atribuir permissão no linux (tenha cuidado ao usar este comando)
