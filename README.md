@@ -121,8 +121,8 @@ php -v
 
 #### [](https://github.com/brunosllz/php_lab#-vscode) VSCode
 
-Como o nosso ambiente funcionando podemos partir para a configuração da IDE, neste laboratório iremos utilizar o VSCode.
-Como o seu VSCode já instalado do seu SO, temos que fazer de uma instalação da extensão para que possamos conectar a nossa Distro linux.
+Com o nosso ambiente funcionando podemos partir para a configuração da IDE, neste laboratório iremos utilizar o VSCode.
+Com o seu VSCode já instalado em seu SO, temos que fazer a instalação de uma extensão para que possamos conectar a nossa Distro Linux.
 Faça a instalação da extensão <strong>Remote - WSL</strong>
 
 <img alt="php-log" title="#vscode-extension" src="https://github.com/brunosllz/php_lab/blob/main/assets/vscode_extension.png" width="300px"/>
