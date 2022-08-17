@@ -26,6 +26,8 @@ wsl --unregister <DistroName>                         //Desinstalar uma Distro
 wsl --distribution <DistroName> --user <User Name>    //Iniciar Distro pelo Prompt de Comando do Windows
 ```
 
+<br/>
+
 ## 🌐 Configuração de ambiente
 Neste laboratório iremos utilizar a Distro Linux Ubuntu, Apache e PHP 8.1 inicialmente, antes de prosseguir com a instalação certifique que esteja com o usuário root configurado no seu linux, para realizar a configuração rode o seguinte comando para atribuir uma senha ao root.
 ```js
@@ -55,6 +57,7 @@ Certifique que o apache está rodando no seu linux com este comando.
 ```js
 sudo service apache2 status
 ```
+<img alt="apache_status" title="#apache_status" src="https://github.com/brunosllz/php_lab/blob/main/assets/apache_status.png" width="400px"/>
 
 <br/>
 
@@ -83,6 +86,7 @@ Certifique oque o PHP foi instaldo corretamente, rode este comando.
 ```js
 php -v
 ```
+<img alt="php-log" title="#php-log" src="https://github.com/brunosllz/php_lab/blob/main/assets/php_log.png" width="400px"/>
 
 <br/>
 
