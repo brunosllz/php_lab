@@ -6,6 +6,9 @@
 
 <ul>
   <li>
+    <a href="#--comandos-do-linux">Comandos do Linux</a>
+  </li>
+  <li>
     <a href="#--instalar-wsl2">Instalar WSL2</a>
   </li>
   <li>
@@ -23,6 +26,16 @@
     </ul>
   </li>
 </ul>
+
+---
+
+<br/>
+
+## [](https://github.com/brunosllz/php_lab#--instalar-wsl2) 💻 Comandos do Linux
+
+```js
+sudo chmod 777 -R .     //Atribuir permissão no linux (tenha cuidado ao usar este comando)
+```
 
 ---
 
