@@ -12,9 +12,11 @@ A seguir podemos listar as Distros do Linux disponíveis para fazer a instalaç�
 wsl --list --online
 wsl --install -d <DistroName>
 ```
-<p>Troque o <strong>DistroName</strong> pelo nome da distrubuição que deseja instalar</p> 
+<p>Troque o <strong>DistroName</strong> pelo nome da distrubuição que deseja instalar.</p> 
 
-Segue alguns comandos que podemos executar no wsl
+<br/>
+
+Segue alguns comandos que podemos executar no wsl.
 ```js
 wsl -l -v                                             //Listar as distribuições instaladas e sua versão
 wsl --setdefault <DistroName>                         //Definir uma Distro padrão
@@ -25,7 +27,7 @@ wsl --distribution <DistroName> --user <User Name>    //Iniciar Distro pelo Prom
 ```
 
 ## 🌐 Configuração de ambiente
-Neste laboratório iremos utilizar a Distro Linux Ubuntu, Apache e PHP 8.1 inicialmente, antes de prosseguir com a instalação certifique que esteja com o usuário root configurado no seu linux, para realizar a configuração tode o seguinte comando para atribuir uma senha ao root.
+Neste laboratório iremos utilizar a Distro Linux Ubuntu, Apache e PHP 8.1 inicialmente, antes de prosseguir com a instalação certifique que esteja com o usuário root configurado no seu linux, para realizar a configuração rode o seguinte comando para atribuir uma senha ao root.
 ```js
 sudo passwd root
 ```
@@ -33,6 +35,12 @@ Logo após rode este comando para subir o usuário root.
 ```js
 sudo -
 ```
+Certifique que atualizar os pacotes do seu Linux também, rode o seguinte comando.
+```js
+sudo apt-get update && sudo apt-get upgrade -y
+```
+
+<br/>
 
 #### Apache2
 Para fazer a instalação do Apache2 rode este comando.
@@ -56,7 +64,7 @@ Para fazer a instalação do PHP primeiro precisamos adicionar o repositório no
 sudo add-apt-repository ppa:ondrej/php
 ```
 
-Após adicionar o repositório rode este para fazer a instalação do pacote do PHP e do modulo do Apache.
+Após adicionar o repositório rode este comando para fazer a instalação do pacote do PHP e do modulo do Apache.
 ```js
 apt install php8.1 libapache2-mod-php8.1
 ```
@@ -71,8 +79,12 @@ Por último iremos realizar a instalação de alguns pacotes extras do PHP.
 apt install php8.1-cli php8.1-curl php8.1-mysqlnd php8.1-gd php8.1-opcache php8.1-zip php8.1-intl php8.1-common php8.1-bcmath php8.1-imap php8.1-imagick php8.1-xmlrpc php8.1-readline php8.1-memcached php8.1-redis php8.1-mbstring php8.1-apcu php8.1-xml php8.1-dom php8.1-redis php8.1-memcached php8.1-memcache php8.1-xdebug php8.1-pcov
 ```
 
+Certifique oque o PHP foi instaldo corretamente, rode este comando.
+```js
+php -v
+```
+
+<br/>
+
 #### VSCode
 
-
-#### Mudar permissâo Linux 
-- sudo chmod 777 -R .
