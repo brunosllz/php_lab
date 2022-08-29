@@ -1,5 +1,6 @@
 <?php
 
+//Números primos
 $resultado = [];
 $intervalo = 50;
 
@@ -21,14 +22,15 @@ echo "Resultado dos números primos: " . implode(", ",  $resultado);
 
 echo "<br>";
 
+//Números perfeitos
 $numero = 1233456;
-$divisores = array();
+$divisores = [];
 $soma = 0;
 
 for ($i = 1; $i < $numero; $i++) {
   if ($numero % $i == 0) {
     $soma += $i;
-    array_push($divisores, $i);
+    $divisores[] = $i;
   }
 }
 
