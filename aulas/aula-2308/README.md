@@ -8,8 +8,6 @@
 
 ## Números Primos
 
----
-
 <p>
 Um número é considerado primo quando é divisível por 1 e por ele mesmo.
 
@@ -42,8 +40,6 @@ echo "Resultado dos números primos: " . implode(", ",  $resultado);
 <br/>
 
 ## Números Perfeitos
-
----
 
 <p>
 Um número se diz perfeito se é igual à soma de seus divisores próprios. Divisores próprios de um número positivo N são todos os divisores inteiros positivos de N exceto o próprio N. Por exemplo, o número 6, seus divisores próprios são 1, 2 e 3, cuja soma é igual à 6.
