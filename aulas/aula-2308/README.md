@@ -39,6 +39,40 @@ echo "Resultado dos números primos: " . implode(", ",  $resultado);
 
 <br/>
 
+> Refactoring
+
+  <img alt="refactoring" title="#refactoring" src=""width="100px"/>
+
+  <br/>
+  
+  <p>
+    Código refatorado depois do feeedback.
+  </p>
+
+  ```php
+  $resultado = [];
+  $intervalo = 1000;
+
+  for ($i = 3; $i <= $intervalo; $i++) {
+    $divisores = 0;
+
+    for ($j = $i; $j > 1; $j--) {
+      if (($i % $j) == 0) {
+        $divisores++;
+      }
+    }
+
+    if ($divisores == 1) {
+      $resultado[] = $i;
+    }
+  }
+
+  echo "Resultado dos números primos: " . implode(", ",  $resultado);
+```
+---
+
+<br/>
+
 ## Números Perfeitos
 
 <p>
