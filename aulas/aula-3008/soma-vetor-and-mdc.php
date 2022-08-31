@@ -41,6 +41,8 @@ for ($i = 0; $i < $tamanho; $i++) {
   $base += $numero[$i] * $potencia;
 }
 
-// var_dump($base);
+echo "<br/>  Númeoro em binário: " . implode("", $numero) . " | Número decimal: $base";
 
 //Conversao de decimal para binario
+
+//...
