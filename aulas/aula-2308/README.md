@@ -39,9 +39,9 @@ echo "Resultado dos números primos: " . implode(", ",  $resultado);
 
 <br/>
 
-> Refactoring
+### 💻 Refactoring números primos
 
-  <img alt="refactoring" title="#refactoring" src=""width="100px"/>
+  <img alt="refactoring" title="#refactoring" src="https://github.com/brunosllz/php_lab/blob/main/aulas/aula-2308/assets/refactoring.png" width="500px" />
 
   <br/>
   
