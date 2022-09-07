@@ -16,7 +16,7 @@ for ($i = 0; $i < count($numeros); $i++) {
 
 echo "Array inicial: " . implode(", ", $numeros_print) . " | Array ordenado: " . implode(", ", $numeros) . "<br/>";
 
-//Descubrir se a palavra é palindromo
+//Descubrir se a palavra é palindrome
 
 $palavra = "ana";
 $array_palavra = str_split($palavra);
