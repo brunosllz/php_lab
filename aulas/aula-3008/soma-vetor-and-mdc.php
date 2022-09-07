@@ -2,12 +2,12 @@
 
 //Soma dos pares
 
-$numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+$numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 $soma = 0;
 
 foreach ($numeros as $numero) {
-  if ($numero % 2 === 0) {;
-    $soma += $numero;
+  if ($numero % 2 === 0) {
+    $soma = $soma + $numero;
   }
 }
 
@@ -41,8 +41,19 @@ for ($i = 0; $i < $tamanho; $i++) {
   $base += $numero[$i] * $potencia;
 }
 
-echo "<br/>  Númeoro em binário: " . implode("", $numero) . " | Número decimal: $base";
+echo "<br/>  Número em binário: " . implode("", $numero) . " | Número decimal: $base";
 
 //Conversao de decimal para binario
 
-//...
+$numero = 30;
+$numero_print = $numero;
+$restos = [];
+$dividendo;
+
+do {
+  $dividendo = $numero;
+  $restos[] = $dividendo % 2;
+  $numero = $dividendo / 2;
+} while ($dividendo > 2);
+
+echo "<br/> Número em decimal: $numero_print | Número binário: " . implode("", array_reverse($restos));

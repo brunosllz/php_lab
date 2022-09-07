@@ -14,6 +14,9 @@
        <li>
         <a href="https://github.com/brunosllz/php_lab/tree/main/aulas/aula-3008">Aula 30-08-22<a>
       </li>
+      <li>
+        <a href="https://github.com/brunosllz/php_lab/tree/main/aulas/aula-0609">Aula 06-09-22<a>
+      </li>
     </ul>
   </li>
   <li>
