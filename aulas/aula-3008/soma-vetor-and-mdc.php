@@ -49,6 +49,7 @@ $numero = 30;
 $numero_print = $numero;
 $restos = [];
 $dividendo;
+$restos_ord = [];
 
 do {
   $dividendo = $numero;
@@ -56,4 +57,8 @@ do {
   $numero = $dividendo / 2;
 } while ($dividendo > 2);
 
-echo "<br/> Número em decimal: $numero_print | Número binário: " . implode("", array_reverse($restos));
+for ($i = (count($restos) - 1); $i >= 0; $i--) {
+  $restos_ord[] = $restos[$i];
+}
+
+echo "<br/> Número em decimal: $numero_print | Número binário: " . implode("", $restos_ord);
