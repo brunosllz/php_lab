@@ -1,4 +1,4 @@
-<h1 align="center"> Ordenação de crescente do um array e Descobrir se a palavra é palindrome</h1>
+<h1 align="center"> Ordenação de crescente de um array e Descobrir se a palavra é palindrome</h1>
 
 <p>
  ...
