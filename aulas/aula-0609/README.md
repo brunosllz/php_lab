@@ -6,7 +6,7 @@
 
 <br/>
 
-## Ordenação de crescente do um array
+## Ordenação de crescente de um array
 
 <p>
 ...
