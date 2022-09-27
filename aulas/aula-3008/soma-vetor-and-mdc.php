@@ -32,7 +32,7 @@ echo "<br/> O MDC de $numero_print e $divisor_print = $numero";
 
 //Conversao de binario para decimal
 
-$numero = [1, 0, 1, 0, 0];
+$numero = [1, 0, 1, 0, 0, 0];
 $tamanho = count($numero);
 $base;
 

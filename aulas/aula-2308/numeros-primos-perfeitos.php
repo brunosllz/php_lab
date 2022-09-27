@@ -2,7 +2,7 @@
 
 //Números primos
 $resultado = [];
-$intervalo = 1000;
+$intervalo = 10;
 
 for ($i = 3; $i <= $intervalo; $i++) {
   $divisores = 0;
