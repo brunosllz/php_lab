@@ -32,11 +32,11 @@ echo "<br/> O MDC de $numero_print e $divisor_print = $numero";
 
 //Conversao de binario para decimal
 
-$numero = [1, 0, 1, 0, 0, 0];
+$numero = [1, 1, 1, 1, 1];
 $tamanho = count($numero);
 $base;
 
-for ($i = 0; $i < $tamanho; $i++) {
+for ($i = 0; $i <= $tamanho; $i++) {
   $potencia = pow($i - ($tamanho - 1), 2);
   $base += $numero[$i] * $potencia;
 }
